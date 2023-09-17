@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Marck+Script&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+  color: #29190a;
+  background-color: #fff7e8;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.img_coffee {
+  width: 400px;
+}
+.info-text h1 {
+  text-align: center;
+}
+
+.info-text p {
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px;
+}
+
+@media (max-width: 600px){
+.info {
+ margin-left: 10px;
+  display: block;
+  text-align: center;
+}
+
+.img_coffee {
+  width: 100%;
+}
+}
+
+.card {
+  padding: 10px 25px;
+  border: 3px solid #4d3920;
+  color: rgba(10, 10, 10, 0.836);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 4px 5px 10px #4d3920;
+  align-items: center;
+}
+
+.card1 {
+  background-color: #c7ae81;
+  text-align: center;
+}
+
+.card2 {
+  background-color: #917759;
+}
+
+.card3 {
+  background-color: #74563a;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  padding: 10px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.list li:nth-child(odd) {
+  background-color: #dfc79a;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 600px){
+.table {
+  padding: 0;
+}
+
+  .table tr th {
+  font-size: 0.4em;
+}
+  .table tr td{
+    font-size: 0.4em;
+  }
+
+}
+
+.table th,
+td {
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 1px solid #050403;
+  border-right: 1px solid #050403;
+}
+
+.table th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+.table th {
+  font-size: 18px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+  padding: 0 0 15px 10px;
+}
+
+.form textarea {
+  width: 100%;
+  border: none;
+  background: #dfc79a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  background: #29190a;
+  color: #c7ae81;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 23px;
+  color: #2b1c0e;
+  text-decoration: none;
+}
+
+@media (max-width: 600px){
+  .footer {
+    text-align: center;
+  }
+}
+
+a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(15, 51, 82);
+}
